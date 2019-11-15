@@ -1,0 +1,755 @@
+/*font-weight: 700; (bold)*/
+
+
+body {
+    font-family: 'stratos', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    background-color: black; /* For browsers that do not support gradients */
+    
+  background-image: linear-gradient(to right, #25144a, #9d248e, #c7158c, #c7158c, #9d248e, #25144a);*/
+    
+    /* Standard syntax (must be last) */
+}
+.container {
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+  
+}
+
+/* Neon start */
+.glow {
+    top: 15px;
+    align-content: center;
+    z-index:1;
+    color: #fff;
+font-family: 'Open Sans', sans-serif;    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.glow:hover {
+  color: navajowhite;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+@-webkit-keyframes glow {
+   from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
+  }
+}
+
+@-moz-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
+  }
+}
+/* Neon end */
+
+
+
+
+a:link {
+  text-decoration: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:white;
+}
+
+/*-- navigation start--*/
+.drop_img:hover {
+    opacity: 0.5;
+    
+}
+
+.dropdown {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 30px;
+    top: 0;
+    z-index: 9999 !important;
+    position: absolute;
+}
+
+.dropdown-content {
+    
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: cyan;
+    font-weight: 300;
+    padding: 12px 16px;
+    text-decoration: none;
+    background-color: #af72b0;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: magenta;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* spinning code
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.drop_img {
+   animation: spinning 2s infinite;
+}
+*/
+
+.drop_img { transition: all 0.3s ease-in-out 0s; }
+
+.drop_img:hover  {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+/*-- navigation end--*/
+
+.abba_logo {
+    font-size: 40px;
+    margin: auto;
+    width: 25%; 
+    margin-top: 25px;
+    padding: 10px;
+    
+}
+
+
+
+.main_img { 
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    width: 540px;
+    margin: auto;
+    line-height: 22px;
+}
+
+
+
+footer {
+    width: 1280px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #af72b0;
+    bottom: 0;    
+    
+}
+
+#foot  {
+    width: 1280px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #af72b0;
+    bottom: 0;    
+}
+
+
+
+/* background video start */
+* {
+  box-sizing: border-box;
+}
+
+
+
+#myVideo {    
+    position: fixed;
+    top: 180px;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.content { /*home text*/
+    position: absolute;
+    margin: auto;
+    width: 750px;
+    line-height: 22px;
+    background: rgba(0, 0, 0, 0.5);
+    color: cyan;
+    padding: 20px;
+    bottom: 50px;
+    min-width: 50%; 
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+/* background video end ---- */
+
+
+
+
+/* gallery slider start ---- */
+
+.gallery_container {
+    
+    width: 90%;
+    max-width: 960px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 40px; /* gallery top margin */
+    position: relative;
+    text-align: center;
+}
+
+#gal_p {
+    color: cyan;
+    margin-bottom: 100px;
+    
+}
+ul {
+   list-style: none; 
+    
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+nav > ul > li > a {
+    text-transform: uppercase;
+    padding: 4px 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-decoration: none;
+    color: #27A4DD;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 25px;
+    border: 1px solid #27A4DD;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    
+}
+
+#gal_title {
+    color: yellow;
+    font-family: 'stratos', sans-serif;
+    text-align: left;
+    line-height: 1.3;
+    margin-top: 5PX;
+}
+
+#gal_caption {
+    color: white;
+    font-size: 15px;
+    font-family: 'stratos', sans-serif;
+    text-align: left;
+    line-height: 1.3;
+    margin-top: 5PX;
+    margin-right: 5px;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+/*
+nav > ul > li > a:hover, .current a {
+    color: #fff;
+    background-color: #27A4DD;
+}*/
+
+#projects > ul > li {
+    display: inline-block;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 60px; /* clike img bottom margin */
+    width: 23%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Padding stays within the width */
+    box-sizing: border-box;
+    position: relative;
+    opacity: 0.7;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+#projects > ul > li:hover {
+    opacity: 1;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+.gallery {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    padding: 40px 10px;
+    display: none;
+    box-sizing: border-box;
+    
+}
+
+.gallery > img {
+    max-height: 100%;
+    width: auto;
+    
+    
+}
+
+.close i {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.bar {
+    display: block;
+    position: absolute;
+    top: 13px;
+    float: left;
+    width: 30px;
+    border-bottom: 4px solid #fff;
+    transform: rotate(45deg);
+}
+
+.bar:first-child {
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 768px){
+    #projects > ul > li {
+        width: 48%;
+    }
+}
+
+@media (max-width: 568px) {
+    #projects > ul > li {
+        width: 100%;
+    }
+}
+/* gallery slider - end */
+
+
+
+/* history grid - start */
+.grid-container {
+    display: grid;
+    margin-top: auto;
+    grid-template-columns: repeat(12, 1fr); 
+    grid-gap: 50px; /* space between columns and rows*/
+    grid-row-gap: 100px;
+    padding: 20px; 
+}
+.year-order {
+    grid-column: 2/12;
+    font-style:italic;
+}
+
+
+/* ---------- history timeline start -----------https://codepen.io/jessyca27/pen/vGoBex
+*/
+.point {
+        margin-left: 5px;
+}
+#timeline {    
+    list-style-type: circle;
+}
+
+#timeline  {
+display:inline-block;
+    font-family: 'stratos', sans-serif;
+    color: cyan;
+        
+}
+
+
+.his_link {
+    color: cyan;
+    font-family: 'stratos', sans-serif;
+    line-height: 1.7em;
+}
+
+a.his_link:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+/* ---- Timeline  ---- */
+
+#timeline {
+	position: relative;
+	display: block;
+	margin: 15px;
+    top: 0; /* timeline from the top */
+	height: 4px; /*line thickness*/
+	background: yellow; /*yellow line under the year*/
+}
+
+/* ---- Timeline elements ---- */
+.tlist {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 70px; /*width of the year boxes*/
+	font:  17px stratos;
+  height: 30px; /*gap btn timeline & 1982 paragraph*/
+}
+.tlist .diplome {
+  position: absolute;
+  top: -55px; /* year box height */
+  left: 40%; /* year left */
+  color: cyan;
+    
+}
+.tlist .point {
+	content: "";
+	top: -8px; /*year distance from the line*/
+	left: 50%; /*point position from left*/
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 9px solid yellow;
+	border-radius: 15px;
+	background: #fff;
+  position: absolute;
+}
+.point:hover, .point:hover:after,
+.point:hover:before,.point:hover i, 
+.point:hover span {
+   border-color: cyan; 
+}
+
+
+/* ---------- history timeline end -----------*/
+
+
+
+/* year hover effect start 
+https://codepen.io/nckprsn/pen/nzLcp */
+.year01 {
+    grid-column: 1/2;
+    color: yellow;
+    font-size: 2.3em;
+    font-family: 'stratos', sans-serif;
+    text-align: right;
+    text-decoration:none;
+	transition:all 250ms ease;
+	transform:translatez(0);
+	perspective:50px;
+}    
+
+.year01:before,
+.year01:after
+{
+	content:attr( data-year01 );
+	position:absolute;
+	z-index:-1;
+	opacity:0.5;
+	transition:all 150ms ease;
+}
+
+.year01:before
+{
+	color:#00d5ff;
+	top:2px; left:2px;
+}
+
+.year01:after
+{
+	color:#ffaa00;
+	right:2px;
+}
+
+.year01:hover:before
+{
+	transform:rotatex(-15deg) rotatey(5deg) scale(1.25);
+}
+
+.year01:hover:after
+{
+	transform:rotatey(-5deg) rotatex(15deg) scale(1.25);
+}
+
+/* year hover effect end*/
+
+
+.bio_p {
+    grid-column: 2/9;
+    font-size: 17px;
+    color: white;
+    font-family: 'stratos', sans-serif;
+    line-height: 1.7em;
+}
+
+.bio_img {
+    grid-column: 9/12;
+    width: 400px;
+}    
+.bio_img #img1 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.bio_img:hover #img1 {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+figure {
+	width: 300px;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+    border-radius: 5px;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+/* HISTORY grid - end */    
+
+
+/* HISTORY back to top btn - start 
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
+*/ 
+#myBtn {
+  display: none;
+  width: 80px;
+  position: fixed;
+  top: 80px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: cyan;
+  color: #c7158c;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: cyan;
+}
+    
+/* HISTORY back to top btn - end */     
+
+/*------------- concerts videos start -------- */
+
+/*------------- concerts videos start -------- */
+
+.yt-general {
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 0;
+  font-size: 0;
+    
+}
+.yt-cargador {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 4%;
+  padding-right: 4%;
+    padding-bottom: 2%;
+  border-radius: 0 0 8px 8px;
+  box-sizing: border-box;
+}
+.yt-video{
+  position: relative;
+  max-width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+} 
+.yt-video iframe,
+.yt-video object,
+.yt-video embed {
+  width: 1600px;
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.yt-miniaturas {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1% 4% 2% ;
+  box-sizing: border-box;
+  border-radius: 8px 8px 0 0 ;
+}
+
+.yt-miniaturas a {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  height: 0;
+  overflow: hidden;
+  padding: 0 0 13% 0;
+  vertical-align:top;
+  margin: 0 0 0;  /* concert margin top */
+    border: 2px solid transparent;
+  box-sizing: border-box;
+  transition: .3s all;
+}
+.yt-miniaturas a:hover {
+  z-index: 2; 
+  transform: scale(1.2);
+}
+.yt-miniaturas a img {
+  width: 100%;
+  padding: 0;
+}
+.yt-miniaturas a div {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 4px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Arial;
+  color: #9d248e;
+    background: yellow;
+  opacity: .8;
+}
+/* Símbolo cargador CSS */
+.yt-video:before {
+  content: "";
+  display: inline-block;
+  margin: 20% auto;
+  border-width: 30px;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  border-style: double;
+}
+@keyframes spin {100% {
+  transform: rotate(359deg);}
+}
+@media (max-width:470px) {
+  .videominiaturas a div {display: none !important;}
+}
+
+
+
+
+
+
+
+
+
+
+/*------------- concerts videos end -------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
