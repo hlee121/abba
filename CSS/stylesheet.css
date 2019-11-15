@@ -480,14 +480,14 @@ a.his_link:hover {
 .tlist .diplome {
   position: absolute;
   top: -55px; /* year box height */
-  left: 40%; /* year left */
+  left: 10%; /* year left */
   color: cyan;
     
 }
 .tlist .point {
 	content: "";
 	top: -8px; /*year distance from the line*/
-	left: 50%; /*point position from left*/
+	left: 0%; /*point position from left*/
 	display: block;
 	width: 10px;
 	height: 10px;
